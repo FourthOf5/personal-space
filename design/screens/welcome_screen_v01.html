@@ -1,0 +1,99 @@
+<!DOCTYPE html><html class="h-full" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Filip Guerrero — Frontend Engineer</title>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400;1,6..72,500;1,6..72,600&amp;family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            paper: '#FBF9F5',
+            ink: '#121211',
+            vermilion: '#E63B19',
+            hairline: '#E2DED7',
+            muted: '#716F6A'
+          },
+          fontFamily: {
+            grotesk: ['"Space Grotesk"', 'Inter', 'sans-serif'],
+            serif: ['Newsreader', 'Georgia', 'serif'],
+            sans: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .vertical-spine {
+      writing-mode: vertical-rl;
+    }
+    .letter-tight-monumental {
+      letter-spacing: -0.055em;
+    }
+  </style>
+</head>
+<body class="bg-paper text-ink min-h-screen selection:bg-ink selection:text-paper relative overflow-x-hidden flex flex-col justify-between p-6 sm:p-10 md:p-16 lg:p-20">
+<!-- LEFT SPINE MARGIN (Hidden on smallest mobile, pinned on desktop) -->
+<aside class="hidden lg:flex fixed left-8 top-1/2 -translate-y-1/2 vertical-spine rotate-180 items-center gap-6 z-20 pointer-events-none select-none">
+<span class="font-sans text-[10px] tracking-[0.28em] uppercase text-muted font-medium">Filip Guerrero Mengana — Senior Frontend Developer</span>
+<span class="w-1.5 h-1.5 bg-vermilion rounded-full"></span>
+<span class="font-sans text-[10px] tracking-[0.28em] uppercase text-muted font-medium">
+      Edition 001 / 2026
+    </span>
+</aside>
+<!-- TOP HEADER / MONUMENTAL PERIMETER -->
+<header class="w-full flex justify-between items-start pt-2 border-b border-hairline pb-6 relative z-10">
+<div class="flex items-center gap-3">
+<div class="w-2.5 h-2.5 bg-vermilion"></div>
+<p class="font-sans text-[11px] sm:text-xs tracking-[0.24em] uppercase text-ink font-semibold">Filip Guerrero Mengana — Senior Frontend Developer</p>
+</div>
+<div class="font-sans text-[11px] sm:text-xs tracking-[0.22em] uppercase text-muted">
+      Edition 001 / 2026
+    </div>
+</header>
+<!-- MONUMENTAL TYPOGRAPHIC CANVAS -->
+<main class="w-full my-auto py-12 sm:py-20 lg:py-24 relative z-10 flex flex-col justify-center">
+<!-- Massive Intersecting Wordmark -->
+<div class="relative w-full">
+<!-- "Hello," in massive modern grotesque -->
+<h1 class="font-grotesk font-bold text-[18vw] sm:text-[17vw] lg:text-[15.5vw] leading-[0.8] letter-tight-monumental text-ink select-none block">
+        Hello,
+      </h1>
+<!-- "stranger." cascading diagonally underneath in razor-sharp italic serif -->
+<div class="relative w-full flex justify-end mt-1 sm:mt-2 lg:mt-3">
+<h1 class="font-serif italic font-light text-[22vw] sm:text-[20vw] lg:text-[18.5vw] leading-[0.78] text-ink select-none pr-0 sm:pr-4 lg:pr-8 tracking-tighter">
+          stranger.
+        </h1>
+</div>
+</div>
+<!-- Vermilion Tension Bar & Editorial Footnote -->
+<div class="mt-12 sm:mt-20 lg:mt-24 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<div class="lg:col-span-1 hidden lg:block">
+<div class="w-full h-[2px] bg-vermilion mt-3"></div>
+</div>
+<div class="lg:col-span-8 lg:col-start-3">
+<div class="w-12 h-[2px] bg-vermilion mb-6 lg:hidden"></div>
+<p class="font-serif italic text-2xl sm:text-3xl md:text-4xl lg:text-[2.75rem] leading-[1.25] text-ink max-w-4xl tracking-tight">
+          We'll get to know each other better soon.
+        </p>
+</div>
+</div>
+</main>
+<!-- BOTTOM MASTHEAD / COLOPHON -->
+<footer class="w-full border-t border-hairline pt-6 pb-2 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 relative z-10">
+<p class="font-sans text-[11px] sm:text-xs tracking-[0.2em] uppercase text-muted">
+      Designed with Stitch. Built with Codex.
+    </p>
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-vermilion"></span>
+<span class="font-sans text-[11px] sm:text-xs tracking-[0.2em] uppercase text-ink font-medium">
+        Edition 001 / 2026
+      </span>
+</div>
+</footer>
+
+
+</body></html>
