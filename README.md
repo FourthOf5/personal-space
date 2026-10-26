@@ -1,6 +1,6 @@
 # personal-space
 
-Personal business-card site for Filip Guerrero Mengana, Senior Frontend Developer. Built iteratively.
+Personal business-card site for Filip Guerrero Mengana, Software Developer. Built iteratively.
 
 **Stack:** Next.js (App Router) · TypeScript (strict) · Tailwind CSS 4 · GSAP (`@gsap/react`) · pnpm · Vercel
 

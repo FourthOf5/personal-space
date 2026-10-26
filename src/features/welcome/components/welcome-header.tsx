@@ -5,7 +5,7 @@ import { welcomeContent } from "../welcome.content";
 export const WelcomeHeader = () => (
   <header
     data-reveal
-    className="border-hairline relative z-10 flex w-full items-start justify-between gap-6 border-b pt-2 pb-6"
+    className="border-hairline relative z-10 flex w-full flex-wrap items-start justify-between gap-x-6 gap-y-3 border-b pb-6"
   >
     <div className="flex items-center gap-3">
       <Image
