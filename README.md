@@ -6,13 +6,26 @@ Personal business-card site for Filip Guerrero Mengana, Senior Frontend Develope
 
 ## Scripts
 
-| Command          | What it does                              |
-| ---------------- | ----------------------------------------- |
-| `pnpm dev`       | Dev server on http://localhost:3000       |
-| `pnpm build`     | Production build                          |
-| `pnpm typecheck` | Generate Next route types, run `tsc`      |
-| `pnpm lint`      | ESLint                                    |
-| `pnpm format`    | Prettier (write); `format:check` to check |
+| Command               | What it does                                         |
+| --------------------- | ---------------------------------------------------- |
+| `pnpm dev`            | Dev server on http://localhost:3000                  |
+| `pnpm build`          | Production build                                     |
+| `pnpm typecheck`      | Generate Next route types, run `tsc`                 |
+| `pnpm lint`           | ESLint                                               |
+| `pnpm format`         | Prettier (write); `format:check` to check            |
+| `pnpm brand:generate` | Regenerate PNG and favicon exports from the logo SVG |
+
+## Logo and favicon
+
+The hand-traced source is `public/brand/logo.svg`: an unfilled ink outline with a
+transparent background, preserving the sketch's asymmetry and pen lifts.
+`public/brand/logo.png` is the transparent 1024px export.
+
+Run `pnpm brand:generate` after editing the source. It also exports a transparent
+64px `public/brand/favicon.png`, an adaptive light/dark `src/app/icon.svg`, and
+`src/app/favicon.ico` with 16px, 32px, and 48px sizes. The icons share the original
+geometry with heavier strokes for legibility. Next.js discovers both app icons
+automatically.
 
 ## Structure
 
