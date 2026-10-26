@@ -6,12 +6,12 @@ export const WelcomeFooter = () => (
     data-reveal
     className="border-hairline relative z-10 flex w-full flex-col items-start justify-between gap-4 border-t pt-6 pb-2 sm:flex-row sm:items-center"
   >
-    <p className="text-muted text-[9px] tracking-[0.2em] uppercase sm:text-[10px]">
+    <p className="text-muted text-[0.5625rem] tracking-[0.2em] uppercase sm:text-[0.625rem]">
       {welcomeContent.colophon}
     </p>
     <div className="flex items-center gap-2">
       <Marker shape="dot" className="size-2" />
-      <p className="text-ink text-[11px] font-medium tracking-[0.2em] uppercase sm:text-xs">
+      <p className="text-ink text-[0.6875rem] font-medium tracking-[0.2em] uppercase sm:text-xs">
         {welcomeContent.edition}
       </p>
     </div>
