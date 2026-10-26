@@ -16,11 +16,11 @@ export const WelcomeHeader = () => (
         className="size-12 shrink-0"
         priority
       />
-      <p className="text-ink text-[11px] font-semibold tracking-[0.24em] uppercase sm:text-xs">
+      <p className="text-ink text-[0.6875rem] font-semibold tracking-[0.24em] uppercase sm:text-xs">
         {welcomeContent.label}
       </p>
     </div>
-    <p className="text-muted text-[11px] tracking-[0.22em] uppercase sm:text-xs">
+    <p className="text-muted text-[0.6875rem] tracking-[0.22em] uppercase sm:text-xs">
       {welcomeContent.edition}
     </p>
   </header>

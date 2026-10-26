@@ -1,7 +1,8 @@
 import { Marker } from "@/components/ui/marker";
 import { welcomeContent } from "../welcome.content";
 
-const spineTextClass = "text-[10px] font-medium tracking-[0.28em] text-muted uppercase";
+const spineTextClass =
+  "text-[0.625rem] font-medium tracking-[0.28em] text-muted uppercase";
 
 // Vertical running title pinned to the left edge on desktop.
 export const SideSpine = () => (
