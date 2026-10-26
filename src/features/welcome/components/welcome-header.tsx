@@ -11,9 +11,9 @@ export const WelcomeHeader = () => (
       <Image
         src="/brand/logo.svg"
         alt={`${siteConfig.name} logo`}
-        width={48}
-        height={48}
-        className="size-12 shrink-0"
+        width={44}
+        height={44}
+        className="size-11 shrink-0"
         priority
       />
       <p className="text-ink text-[0.6875rem] font-semibold tracking-[0.24em] uppercase sm:text-xs">
